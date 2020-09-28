@@ -1,0 +1,25 @@
+header {
+  text-align: center;
+}
+
+body {
+  display: grid;
+  background-color: #e5e5fa;
+}
+main {
+  justify-self: center;
+}
+
+section {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  margin-bottom: 1rem;
+}
+
+main {
+  display: grid;
+}
+.convert {
+  justify-self: stretch;
+  margin-bottom: 1rem;
+}

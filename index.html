@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height Converter</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Height Converter</h1>
+    </header>
+
+    <main>
+        <section class="feet">
+            <label for="feet" class="lable-feet">Feet</label>
+            <input type="number" step="1" min="0" value="0" name="feet" id="feet" class="input-feet">
+        </section>
+
+        <section class="inches">
+            <label for="inches" class="label-inches">Inches</label>
+            <input type="number" step="1" min="0" max="11" value="0" name="inches" id="inches" class="input-inches">
+        </section>
+
+        <button class="convert">Convert</button>
+
+        <section class="meters">
+            <label for="meters">Meters</label>
+            <input type="number" step="0.01" min="0" value="0" readonly name="meters" id="meters" class="input-meters">
+        </section>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
